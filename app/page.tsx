@@ -189,25 +189,65 @@ export default function Page() {
           Attended the <strong>#1</strong> public university in the US, where I pursed a diverse academic curriculum through theoretical and mathematical economics, statistics, and a variety of liberal arts courses. Also studied abroad in Florence in the Fall of 2021.       </p>
       </section>
 
-      {/* Fun Section
+
       <section className="mt-10 bg-gray-50 p-10 rounded-xl">
-        <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Some things I've done</h2>
-        <p className="mt-4 text-gray-600 text-xl leading-relaxed">
-          <span className='flex flex-row gap-2'>
-            <strong> Coming soon...
-            </strong>
-          </span>
-        </p>
-        <p className='text-lg'>
-          B.A. Economics, Minor in Statistics
-        </p>
-        <p className='text-lg'>
-          September 2018 - December 2022
-        </p>
-        <p className='list-disc mt-4 leading-relaxed px-4'>
-          I had the privilege of attending the <strong>#1</strong> public university in the US, where I pursued a diverse academic track through theoretical and mathematical economics, statistics, and a variety of liberal arts courses. I also studied abroad in Florence in the Fall of 2021.
-        </p>
-      </section> */}
+        <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Projects</h2>
+
+        <div className="flex flex-col md:flex-row justify-center py-4 gap-4">
+
+          {/* Personal Website */}
+          <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
+
+            <p className="px-4 md:text-lg leading-relaxed text-center">
+              <strong>Personal Website</strong>
+            </p>
+            <p className="leading-relaxed px-4 text text-center">
+              This website you're on is a way for me to tell more about myself beyond the Resume and have a glimpse into who I am on a more personal level.
+            </p>
+            <div>
+              <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>TypeScript</li>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>React</li>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>Next.js</li>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>Tailwind</li>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>Vercel</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Replit Agent */}
+          <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
+            <p className="px-4 md:text-lg leading-relaxed text-center">
+              <strong>Bay Area Sports Trivia</strong>
+            </p>
+            <p className="leading-relaxed px-4 text text-center">
+              A game testing the user's knowledge of Bay Area sports. It is multiple choice and tracks the user's high score.
+            </p>
+            <div>
+              <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>Replit Agent</li>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>JavaScript</li>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>CSS</li>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>Python</li>
+                <li className='bg-gray-300  rounded-xl px-2 py-1'>SQL</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Maps */}
+          <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
+            <p className="px-4 md:text-lg leading-relaxed text-center">
+              <strong>Favorites Map Locator</strong>
+            </p>
+            <p className="leading-relaxed px-4 text text-center">
+              My favorite places to eat, drink, or hangout using the Google Maps platform. Coming soon...
+            </p>
+          </div>
+
+        </div>
+
+
+      </section>
     </main>
   );
 }
