@@ -117,7 +117,7 @@ export default function Page() {
           <strong>Quality Engineer II</strong>, February 2024 - Present
         </p>
         <p className='leading-relaxed px-4'>
-          Expanded responsibilities to become sole QE for the newly formed Client Portal team, which introduced new challenges for Ridgeline, where testing for performance and user concurrency was mission-critical. I owned the entire quality assurance process, from product ideation to go-live, and continue to ensure its success today.
+          Expanded responsibilities to be sole QE for the newly formed Client Portal team, introducing new challenges for Ridgeline where maintaining performance quality was mission-critical. I owned the entire quality assurance process, from product ideation to go-live, and continue to ensure its success today.
         </p>
 
         {/* QEI */}
@@ -125,14 +125,14 @@ export default function Page() {
           <strong>Quality Engineer I</strong>, February 2023 - February 2024
         </p>
         <p className='leading-relaxed px-4'>
-          Joined full-time at Ridgeline as the sole QE supporting the Revenue Management team. In addition to owning manual test plans, I developed a robust automation test suite using frameworks like Cypress, Karate, and JUnit, which provided confidence in the success of the Revenue Management product launch.
+          Joined full-time at Ridgeline as the sole QE supporting the Revenue Management team. Developed comprehensive test automation suites, executed test plans, and managed code deployments.
         </p>
 
         {/* QA Intern */}
         <p className='px-4 md:text-lg leading-relaxed mt-6'>
           <strong>QA Engineer Intern</strong>, June 2022 - August 2022
         </p>
-        <p className='leading-relaxed px-4'>
+        <p className='leading-relaxed px-4 text'>
           Created manual test plans, developed UI and API test automation, and collaborated with Product Managers and Software Engineers to deliver top-notch features in an AGILE fashion.
         </p>
 
@@ -159,7 +159,7 @@ export default function Page() {
           <strong>Data Analyst Intern</strong>, June 2020 - August 2021
         </p>
         <p className='leading-relaxed px-4'>
-          Dove into large datasets and applied data-driven insights to improve their Amazon listing strategy for their Omnichannel Strategy team. They must have liked what they saw because they extended my internship through the school year and into August 2021.
+          Dove into large datasets and applied data-driven insights to improve HP's Amazon listing strategy for the Omnichannel Strategy team. The internship was extended through the school year and into August 2021.
         </p>
       </section>
 
@@ -186,7 +186,7 @@ export default function Page() {
           September 2018 - December 2022
         </p>
         <p className='list-disc mt-4 leading-relaxed px-4'>
-          Had the privilege of attending the <strong>#1</strong> public university in the US, where I pursed a diverse academic curriculum through theoretical and mathematical economics, statistics, and a variety of liberal arts courses while participating in groups like UCLA Student Media, Zeta Beta Tau, and Undergrduate Business. I also studied abroad in Florence in the Fall of 2021.       </p>
+          Attended the <strong>#1</strong> public university in the US, where I pursed a diverse academic curriculum through theoretical and mathematical economics, statistics, and a variety of liberal arts courses. Also studied abroad in Florence in the Fall of 2021.       </p>
       </section>
 
       {/* Fun Section
