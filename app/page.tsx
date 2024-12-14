@@ -29,8 +29,6 @@ export default function Page() {
               <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to keep growing my technical knowledge while collaborating with teams to deliver solutions that people love.
               </p>
               <p> When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying new food, or exploring new places.</p>
-              <p> This website is built in effort to improve my <strong>React</strong> and <strong>Next.js</strong> skills, so it is a WIP.
-              </p>
               {/* <p> Feel free to contact or follow me:
             </p>  
             <span className='flex flex-row gap-4'>
