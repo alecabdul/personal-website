@@ -16,3 +16,16 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add this to your global CSS or style tag */
+nav {
+  position: sticky;
+  top: 0; /* Sticks to the top of the page */
+  z-index: 50; /* Ensures it stays above other elements */
+  background-color: white; /* Prevent transparency issues */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+}
