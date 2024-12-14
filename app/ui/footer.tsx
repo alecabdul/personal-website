@@ -6,7 +6,7 @@ export default function Footer() {
             <ul className="flex flex-row gap-4 mb-3 mt-10">
                 <li>
                     <Link
-                        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+                        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300"
                         rel="noopener noreferrer"
                         target="_blank"
                         href="mailto:alecabdul99@gmail.com"
@@ -16,7 +16,7 @@ export default function Footer() {
                 </li>
                 <li>
                     <Link
-                        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+                        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300"
                         rel="noopener noreferrer"
                         target="_blank"
                         href="/Alec_Abdul-Rahim_Resume.pdf"
@@ -26,7 +26,7 @@ export default function Footer() {
                 </li>
                 <li>
                     <Link
-                        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+                        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300"
                         rel="noopener noreferrer"
                         target="_blank"
                         href="https://www.linkedin.com/in/alec-abdul-rahim-6812ba183/"
