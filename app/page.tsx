@@ -1,9 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
-import styles from '@/app/ui/home.module.css';
-import { roboto } from './ui/fonts';
 import Image from 'next/image';
-import { DocumentTextIcon, AtSymbolIcon } from '@heroicons/react/24/outline';
 
 
 export default function Page() {
@@ -22,13 +18,14 @@ export default function Page() {
             <span >Résumé</span> <DocumentTextIcon className='w-7 h-7' />
           </Link>
         </div> */}
-          <div className="flex flex-col gap-4 min-h-screen md:flex-row">
-            <div className="flex rounded-xl flex-col justify-center gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-24">
+          <div className="flex flex-col gap-4 h-full md:flex-row">
+            <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
               <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
                 <strong>Hi, I'm Alec.</strong></p>
-              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to keep growing my technical knowledge while collaborating with teams to deliver solutions that people love.
+              <p>I'm a <strong>Software Quality Engineer</strong>, born and raised in Oakland, CA, and currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
-              <p> When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying new food, or exploring new places.</p>
+              <p> When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying new food, or exploring new places.
+              </p>
               {/* <p> Feel free to contact or follow me:
             </p>  
             <span className='flex flex-row gap-4'>
@@ -67,7 +64,7 @@ export default function Page() {
               </Link>
             </span> */}
             </div>
-            <div className="flex flex-col items-center justify-center rounded-xl bg-gray-50 md:w-1/2 md:h-auto">
+            <div className="flex flex-col items-center justify-center rounded-xl order-1 md:order-2 bg-gray-50 md:w-1/2 md:h-auto">
               <div
                 className="relativeflex items-center justify-center"
                 style={{
@@ -88,13 +85,13 @@ export default function Page() {
         </section>
 
         {/* New Experience Section */}
-        <section  id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
+        <section id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Experience</h2>
           <p className="mt-4 text-xl leading-relaxed">
-            In my career so far, I've worn many hats and taken a lot of ownership, which has given me great opportunity to develop a variety of skills - project management, technical, and leadership skills.</p>
+          In my young career, I've worn many hats and taken on a lot of ownership, which has given me the opportunity to develop skills in project management, technical expertise, and leadership.</p>
 
           {/* RL Desc. */}
-          <div className="mt-10 text-gray-600 md:text-xl leading-relaxed">
+          <div className="mt-10 text-gray-600 text-xl leading-relaxed">
             <span className='flex flex-row gap-1'>
               <strong>Ridgeline Apps
               </strong>
@@ -106,13 +103,13 @@ export default function Page() {
                 alt="LinkedIn Icon"
               />
             </span>
-            <p>
+            <p className='text-lg'>
               Vertically integrated financial software for asset management firms.
             </p>
           </div>
 
           {/* QEII */}
-          <p className='px-4 md:text-lg  leading-relaxed mt-6'>
+          <p className='px-4 text-lg  leading-relaxed mt-6'>
             <strong>Quality Engineer II</strong>, February 2024 - Present
           </p>
           <p className='leading-relaxed px-4'>
@@ -120,7 +117,7 @@ export default function Page() {
           </p>
 
           {/* QEI */}
-          <p className='px-4 md:text-lg  leading-relaxed mt-6'>
+          <p className='px-4 text-lg  leading-relaxed mt-6'>
             <strong>Quality Engineer I</strong>, February 2023 - February 2024
           </p>
           <p className='leading-relaxed px-4'>
@@ -128,7 +125,7 @@ export default function Page() {
           </p>
 
           {/* QA Intern */}
-          <p className='px-4 md:text-lg leading-relaxed mt-6'>
+          <p className='px-4 text-lg leading-relaxed mt-6'>
             <strong>QA Engineer Intern</strong>, June 2022 - August 2022
           </p>
           <p className='leading-relaxed px-4 text'>
@@ -136,7 +133,7 @@ export default function Page() {
           </p>
 
           {/* HP  Desc. */}
-          <div className="mt-12 text-gray-600 md:text-xl leading-relaxed">
+          <div className="mt-10 text-gray-600 text-xl leading-relaxed">
             <span className='flex flex-row gap-2'>
               <strong>HP Inc
               </strong>
@@ -148,13 +145,13 @@ export default function Page() {
                 alt="HP Icon"
               />
             </span>
-            <p>
+            <p className='text-lg'>
               Tech giant renowned for its laptops, desktops, and printers.
             </p>
           </div>
 
           {/* Data Analyst Intern */}
-          <p className='px-4 md:text-lg leading-relaxed mt-6'>
+          <p className='px-4 text-lg leading-relaxed mt-6'>
             <strong>Data Analyst Intern</strong>, June 2020 - August 2021
           </p>
           <p className='leading-relaxed px-4'>
@@ -185,7 +182,7 @@ export default function Page() {
             September 2018 - December 2022
           </p>
           <p className='list-disc mt-4 leading-relaxed px-4'>
-            Attended the <strong>#1</strong> public university in the US, where I pursed a diverse academic curriculum through theoretical and mathematical economics, statistics, and a variety of liberal arts courses. Also studied abroad in Florence in the Fall of 2021.       </p>
+            Attended the <strong>#1</strong> public university in the US, where I tackled a diverse academic curriculum through theoretical and mathematical economics, statistics, and a variety of liberal arts courses. I also studied abroad in Florence in the Fall of 2021.       </p>
         </section>
 
 
@@ -201,7 +198,7 @@ export default function Page() {
                 <strong>Personal Website</strong>
               </p>
               <p className="leading-relaxed px-4 text text-center">
-                This website you're on is a way for me to tell more about myself beyond the Resume and have a glimpse into who I am on a more personal level.
+                This website you're on is a way for me to share more about myself beyond my resume and offer a glimpse into who I am on a more personal level.
               </p>
               <div>
                 <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
