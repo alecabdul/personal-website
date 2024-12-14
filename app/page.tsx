@@ -155,7 +155,7 @@ export default function Page() {
             <strong>Data Analyst Intern</strong>, June 2020 - August 2021
           </p>
           <p className='leading-relaxed px-4'>
-            Dove into large datasets and applied data-driven insights to improve HP's Amazon listing strategy. I must have done okay, because the internship was extended through the school year and into August 2021.
+            Dove into large datasets and applied data-driven insights to improve HP's Amazon listing strategy. I must have done okay, because they extended the internship through the school year and into August 2021.
           </p>
         </section>
 
