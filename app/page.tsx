@@ -87,7 +87,7 @@ export default function Page() {
         {/* New Experience Section */}
         <section id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Experience</h2>
-          <p className="mt-4 text-xl leading-relaxed">
+          <p className="mt-2 text-lg leading-relaxed">
           In my young career, I've worn many hats and taken on a lot of ownership, which has given me the opportunity to develop skills in project management, technical expertise, and leadership.</p>
 
           {/* RL Desc. */}
