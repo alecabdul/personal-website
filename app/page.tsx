@@ -66,19 +66,22 @@ export default function Page() {
             </div>
             <div className="flex flex-col items-center justify-center rounded-xl order-1 md:order-2 bg-gray-50 md:w-1/2 md:h-auto">
               <div
-                className="relativeflex items-center justify-center"
+                className="relative flex items-center justify-center"
                 style={{
-                  padding: '24px', // Padding between the image and the gray background
+                  padding: '20px', // Padding between the image and the gray background
                 }}
               >
-                <Image
-                  src="/riflepeak.jpeg"
-                  layout="intrinsic"
-                  width={700}
-                  height={525}
-                  alt="Screenshots of the dashboard project showing desktop version"
-                  className="rounded-lg"
-                />
+                {/* Aspect Ratio Wrapper */}
+                <div className="w-[95%] relative">
+                  <Image
+                    src="/riflepeak.jpeg"
+                    layout="intrinsic"
+                    width={1600}
+                    height={1200}
+                    alt="Screenshots of the dashboard project showing desktop version"
+                    className="rounded-lg"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -88,7 +91,7 @@ export default function Page() {
         <section id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Experience</h2>
           <p className="mt-2 text-lg leading-relaxed">
-          In my young career, I've worn many hats and taken a lot of ownership, which has given me the opportunity to develop skills in project management, technical expertise, and leadership.</p>
+            In my young career, I've worn many hats and taken a lot of ownership, which has given me the opportunity to develop skills in project management, technical expertise, and leadership.</p>
 
           {/* RL Desc. */}
           <div className="mt-10 text-gray-600 text-xl leading-relaxed">
