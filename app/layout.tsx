@@ -1,6 +1,7 @@
 import '@/app/ui/global.css';
 import { inter, lusitana, roboto } from './ui/fonts';
 import Footer from './ui/footer';
+import NavBar from './ui/navbar';
 
 export default function RootLayout({
   children,
@@ -10,6 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en" className='h-full'>
       <body className={`${roboto.className} antialiased`}>
+          <NavBar />
           {children}
           <Footer />
       </body>
