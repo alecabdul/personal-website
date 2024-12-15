@@ -14,7 +14,7 @@ export default function Page() {
                 <strong>Hi, I'm Alec.</strong></p>
               <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
-              <p> When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different food, or exploring new places.
+              <p> When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
               </p>
               {/* <p> Feel free to contact or follow me:
             </p>  
@@ -122,7 +122,7 @@ export default function Page() {
             <strong>QA Engineer Intern</strong>, June 2022 - August 2022
           </p>
           <p className='leading-relaxed px-4 text'>
-            Created manual test plans, developed UI and API test automation, and collaborated with Product Managers and Software Engineers to deliver top-notch features in an Agile fashion.
+            Created manual test plans, developed UI and API test automation, and collaborated with Product Managers and Software Engineers to deliver top-notch features using Agile methods.
           </p>
 
           {/* HP  Desc. */}
@@ -210,7 +210,7 @@ export default function Page() {
                 <strong>Bay Area Sports Trivia</strong>
               </p>
               <p className="leading-relaxed px-4 text text-center">
-                A game testing the user's knowledge of Bay Area sports. Even for a lifelong follower like me, it gets difficult.
+                A game that tests the user’s knowledge of Bay Area sports, which even a lifelong fan like me finds difficult.
               </p>
               <div>
                 <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
@@ -243,8 +243,8 @@ export default function Page() {
             <li>I'm from Oakland, CA</li>
             <li>I'm a native Spanish speaker</li>
             <li>I've traveled to over 20 countries</li>
-            <li>I'm an Eagle Scout, and am prepared for anything</li>
-            <li>I once lived in Florence, where I was entranced with its history and pistachio gelato</li>
+            <li>I'm an Eagle Scout and am prepared for anything</li>
+            <li>I once lived in Florence, where I became enthralled by its history and pistachio gelato</li>
             <li>I love attending music festivals and have been to some of the biggest</li>
           </ul>
         </section>
