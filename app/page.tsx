@@ -175,7 +175,7 @@ export default function Page() {
             September 2018 - December 2022
           </p>
           <p className='list-disc mt-4 leading-relaxed px-4'>
-            Attended the <strong>#1</strong> public university in the US, where I tackled a diverse academic curriculum of theoretical and mathematical economics, statistics, and a variety of liberal arts courses. Go Bruins!       </p>
+            Attended the <strong>#1</strong> public university in the US, where I tackled a diverse curriculum of theoretical and mathematical economics, statistics, and a variety of liberal arts courses. Go Bruins!       </p>
         </section>
 
 
@@ -235,20 +235,18 @@ export default function Page() {
         </section>
 
 
-        <section id="Tidbits" className="mt-10 bg-gray-50 p-10 rounded-xl">
-          <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Tidbits</h2>
+        <section id="Facts" className="mt-10 bg-gray-50 p-10 rounded-xl">
+          <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Fun Facts</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            My takes and fun facts for when I can't think of them on the spot</p>
-            <ul className='flex flex-col list-disc mt-4 gap-2 leading-relaxed px-4'>
-              <li>I'm from Oakland, CA</li>
-              <li>I'm a native Spanish speaker</li>
-              <li>Breaking Bad is the greatest TV series ever</li>
-              <li>I've traveled to over 20 different countries</li>
-              <li>I love attending music festivals, and have been to some of the biggest</li>
-              <li>I'm an Eagle Scout</li>
-              <li>I lived in Florence, Italy</li>
-              <li>I have a wealth of knowledge on sports, world, and rap history</li>
-            </ul>
+            For when I can't think of one on the spot</p>
+          <ul className='flex flex-col list-disc mt-4 gap-2 leading-relaxed px-4'>
+            <li>I'm from Oakland, CA</li>
+            <li>I'm a native Spanish speaker</li>
+            <li>I've traveled to over 20 countries</li>
+            <li>I'm an Eagle Scout, and am prepared for anything</li>
+            <li>I once lived in Florence, where I was entranced with its history and pistachio gelato</li>
+            <li>I love attending music festivals and have been to some of the biggest</li>
+          </ul>
         </section>
 
       </div >
