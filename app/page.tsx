@@ -57,7 +57,7 @@ export default function Page() {
             </div>
             <div className="flex flex-col items-center justify-center h-[30%] rounded-xl order-1 bg-gray-50">
               <div
-                className="relative flex items-center justify-center"
+                className="relative flex items-center justify-center w-full h-full"
                 style={{
                   padding: '20px', // Padding between the image and the gray background
                 }}
