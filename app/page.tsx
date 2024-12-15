@@ -5,21 +5,12 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <main>
-<<<<<<< HEAD
-      <div className="flex bg-white-100 text-gray-600 flex-col py-4 p-10 max-w-4xl mx-auto">
-        {/* Intro Section */}
-        <section id="Intro">
-          <div className="flex flex-col gap-4 h-full">
-            <div className="flex rounded-xl flex-col justify-center order-2 gap-4 bg-gray-50 px-6 py-6 md:w-full md:h-1/2">
-              <p className='text-xl text-gray-800 md:text-2xl md:leading-normal px-4'>
-=======
       <div className="flex bg-white-100 text-gray-600 flex-col py-6 p-10">
         {/* Intro Section */}
         <section id="Intro">
           <div className="flex flex-col gap-4 h-full md:flex-row">
             <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
               <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
->>>>>>> parent of f53f852... Update page.tsx
                 <strong>Hi, I'm Alec.</strong></p>
               <p className='px-4'>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
