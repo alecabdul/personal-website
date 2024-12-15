@@ -11,11 +11,11 @@ export default function Page() {
         <section id="Intro">
           <div className="flex flex-col gap-4 h-full">
             <div className="flex rounded-xl flex-col justify-center order-2 gap-4 bg-gray-50 px-6 py-6 md:w-full md:h-1/2">
-              <p className='text-xl text-gray-800 md:text-2xl md:leading-normal'>
+              <p className='text-xl text-gray-800 md:text-2xl md:leading-normal px-4'>
                 <strong>Hi, I'm Alec.</strong></p>
-              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
+              <p className='px-4'>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
-              <p> When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
+              <p className='px-4'>When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
               </p>
               {/* <p> Feel free to contact or follow me:
             </p>  
@@ -254,6 +254,7 @@ export default function Page() {
             <li>I'm an Eagle Scout and am prepared for anything</li>
             <li>I lived in Florence for several months, where I was enthralled by its history and pistachio gelato</li>
             <li>I love attending music festivals and have been to some of the biggest</li>
+            <li>I have a wealth of knowledge about pro football and rap history</li>
           </ul>
         </section>
 
