@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -205,22 +205,28 @@ export default function Page() {
             </div>
 
             {/* Replit Agent */}
-            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
-              <p className="px-4 md:text-lg leading-relaxed text-center">
-                <strong>Bay Area Sports Trivia</strong>
-              </p>
-              <p className="leading-relaxed px-4 text text-center">
-                A game that tests the user’s knowledge of Bay Area sports, which even a lifelong fan like me finds difficult.
-              </p>
-              <div>
-                <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
-                  <li className='bg-gray-300  rounded-xl px-2 py-1'>Replit Agent</li>
-                  <li className='bg-gray-300  rounded-xl px-2 py-1'>JavaScript</li>
-                  <li className='bg-gray-300  rounded-xl px-2 py-1'>Python</li>
-                  <li className='bg-gray-300  rounded-xl px-2 py-1'>SQL</li>
-                </ul>
+            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
+                <Link
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://bay-area-sports-trivia-challenge-Alecabdul.replit.app"
+                >
+                  <p className="px-4 md:text-lg leading-relaxed text-center">
+                    <strong>Bay Area Sports Trivia</strong>
+                  </p>
+                  <p className="leading-relaxed px-4 text text-center">
+                    A game that tests the user's knowledge of Bay Area sports, which even a lifelong fan like me finds difficult. Click here to play!
+                  </p>
+                  <div>
+                    <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
+                      <li className='bg-gray-300  rounded-xl px-2 py-1'>Replit Agent</li>
+                      <li className='bg-gray-300  rounded-xl px-2 py-1'>JavaScript</li>
+                      <li className='bg-gray-300  rounded-xl px-2 py-1'>Python</li>
+                      <li className='bg-gray-300  rounded-xl px-2 py-1'>Flask</li>
+                    </ul>
+                  </div>
+                </Link>
               </div>
-            </div>
 
             {/* Maps */}
             <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
@@ -244,9 +250,8 @@ export default function Page() {
             <li>I'm a native Spanish speaker</li>
             <li>I've traveled to over 20 countries</li>
             <li>I'm an Eagle Scout and am prepared for anything</li>
-            <li>I lived in Florence for several months, where I was enthralled by its history and pistachio gelato</li>
+            <li>I lived in Florence for several months</li>
             <li>I love attending music festivals and have been to some of the biggest</li>
-            <li>I have a wealth of knowledge about pro football and rap history</li>
           </ul>
         </section>
 
