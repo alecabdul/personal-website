@@ -244,7 +244,7 @@ export default function Page() {
             <li>I'm a native Spanish speaker</li>
             <li>I've traveled to over 20 countries</li>
             <li>I'm an Eagle Scout and am prepared for anything</li>
-            <li>I once lived in Florence, where I became enthralled by its history and pistachio gelato</li>
+            <li>I once lived in Florence, where I was captivated by its history and pistachio gelato</li>
             <li>I love attending music festivals and have been to some of the biggest</li>
           </ul>
         </section>
