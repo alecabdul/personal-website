@@ -1,17 +1,25 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from "next/link";
 
 
 export default function Page() {
   return (
     <main>
+<<<<<<< HEAD
       <div className="flex bg-white-100 text-gray-600 flex-col py-4 p-10 max-w-4xl mx-auto">
         {/* Intro Section */}
         <section id="Intro">
           <div className="flex flex-col gap-4 h-full">
             <div className="flex rounded-xl flex-col justify-center order-2 gap-4 bg-gray-50 px-6 py-6 md:w-full md:h-1/2">
               <p className='text-xl text-gray-800 md:text-2xl md:leading-normal px-4'>
+=======
+      <div className="flex bg-white-100 text-gray-600 flex-col py-6 p-10">
+        {/* Intro Section */}
+        <section id="Intro">
+          <div className="flex flex-col gap-4 h-full md:flex-row">
+            <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
+              <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+>>>>>>> parent of f53f852... Update page.tsx
                 <strong>Hi, I'm Alec.</strong></p>
               <p className='px-4'>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
@@ -55,7 +63,7 @@ export default function Page() {
               </Link>
             </span> */}
             </div>
-            <div className="flex flex-col items-center justify-center h-[30%] rounded-xl order-1 bg-gray-50">
+            <div className="flex flex-col items-center justify-center rounded-xl order-1 md:order-2 bg-gray-50 md:w-1/2 md:h-auto">
               <div
                 className="relative flex items-center justify-center w-full h-full"
                 style={{
@@ -63,12 +71,12 @@ export default function Page() {
                 }}
               >
                 {/* Aspect Ratio Wrapper */}
-                <div className="relative">
+                <div className="w-[95%] relative">
                   <Image
                     src="/riflepeak.jpeg"
                     layout="intrinsic"
-                    width={400}
-                    height={300}
+                    width={1600}
+                    height={1200}
                     alt="Screenshots of the dashboard project showing desktop version"
                     className="rounded-lg"
                   />
@@ -183,61 +191,54 @@ export default function Page() {
         <section id="Projects" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Projects</h2>
 
-          <div className="flex justify-center p-4 ">
-            <div className="mx-auto flex flex-col gap-4">
-              {/* Personal Website */}
-              <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
+          <div className="flex flex-col md:flex-row justify-center py-4 gap-4">
 
-                <p className="px-4 md:text-lg leading-relaxed text-center">
-                  <strong>Personal Website</strong>
-                </p>
-                <p className="leading-relaxed px-4 text text-center">
-                  This website you're on is a way for me to share more about myself beyond my resume and offer a glimpse into who I am on a more personal level.
-                </p>
-                <div>
-                  <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
-                    <li className='bg-gray-300  rounded-xl px-2 py-1'>TypeScript</li>
-                    <li className='bg-gray-300  rounded-xl px-2 py-1'>React</li>
-                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Next.js</li>
-                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Tailwind</li>
-                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Vercel</li>
-                  </ul>
-                </div>
-              </div>
+            {/* Personal Website */}
+            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
 
-              {/* Replit Agent */}
-              <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
-                <Link
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://bay-area-sports-trivia-challenge-Alecabdul.replit.app"
-                >
-                  <p className="px-4 md:text-lg leading-relaxed text-center">
-                    <strong>Bay Area Sports Trivia</strong>
-                  </p>
-                  <p className="leading-relaxed px-4 text text-center">
-                    A game that tests the user's knowledge of Bay Area sports, which even a lifelong fan like me finds difficult.
-                  </p>
-                  <div>
-                    <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
-                      <li className='bg-gray-300  rounded-xl px-2 py-1'>Replit Agent</li>
-                      <li className='bg-gray-300  rounded-xl px-2 py-1'>JavaScript</li>
-                      <li className='bg-gray-300  rounded-xl px-2 py-1'>Python</li>
-                      <li className='bg-gray-300  rounded-xl px-2 py-1'>Flask</li>
-                    </ul>
-                  </div>
-                </Link>
+              <p className="px-4 md:text-lg leading-relaxed text-center">
+                <strong>Personal Website</strong>
+              </p>
+              <p className="leading-relaxed px-4 text text-center">
+                This website you're on is a way for me to share more about myself beyond my resume and offer a glimpse into who I am on a more personal level.
+              </p>
+              <div>
+                <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>TypeScript</li>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>React</li>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>Next.js</li>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>Tailwind</li>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>Vercel</li>
+                </ul>
               </div>
+            </div>
 
-              {/* Maps */}
-              <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
-                <p className="px-4 md:text-lg leading-relaxed text-center">
-                  <strong>Favorites Map Locator</strong>
-                </p>
-                <p className="leading-relaxed px-4 text text-center">
-                  My favorite places on Earth, pinned with descriptions using the Google Maps platform. Coming soon...
-                </p>
+            {/* Replit Agent */}
+            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
+              <p className="px-4 md:text-lg leading-relaxed text-center">
+                <strong>Bay Area Sports Trivia</strong>
+              </p>
+              <p className="leading-relaxed px-4 text text-center">
+                A game that tests the user’s knowledge of Bay Area sports, which even a lifelong fan like me finds difficult.
+              </p>
+              <div>
+                <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>Replit Agent</li>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>JavaScript</li>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>Python</li>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>SQL</li>
+                </ul>
               </div>
+            </div>
+
+            {/* Maps */}
+            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
+              <p className="px-4 md:text-lg leading-relaxed text-center">
+                <strong>Favorites Map Locator</strong>
+              </p>
+              <p className="leading-relaxed px-4 text text-center">
+                My favorite places on Earth, pinned with descriptions using the Google Maps platform. Coming soon...
+              </p>
             </div>
           </div>
         </section>
