@@ -8,23 +8,13 @@ export default function Page() {
       <div className="flex bg-white-100 text-gray-600 flex-col py-6 p-10">
         {/* Intro Section */}
         <section id="Intro">
-          {/* <div className='relative gap-6'>
-          <Link
-            href="/Alec_Abdul-Rahim_Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="absolute top-10 right-6 flex items-center gap-2 rounded-xl bg-blue-500 px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-          >
-            <span >Résumé</span> <DocumentTextIcon className='w-7 h-7' />
-          </Link>
-        </div> */}
           <div className="flex flex-col gap-4 h-full md:flex-row">
             <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
               <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
                 <strong>Hi, I'm Alec.</strong></p>
-              <p>I'm a <strong>Software Quality Engineer</strong>, born and raised in Oakland, CA, and currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
+              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
-              <p> When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying new food, or exploring new places.
+              <p> When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different food, or exploring new places.
               </p>
               {/* <p> Feel free to contact or follow me:
             </p>  
@@ -124,7 +114,7 @@ export default function Page() {
             <strong>Quality Engineer I</strong>, February 2023 - February 2024
           </p>
           <p className='leading-relaxed px-4'>
-            Joined full-time at Ridgeline as the sole QE supporting the Revenue Management team. Developed comprehensive test automation suites, executed test plans, and managed code deployments.
+            Joined full-time at Ridgeline as the sole QE supporting the Revenue Management team. I developed comprehensive test automation suites, executed test plans, and managed code deployments.
           </p>
 
           {/* QA Intern */}
@@ -132,7 +122,7 @@ export default function Page() {
             <strong>QA Engineer Intern</strong>, June 2022 - August 2022
           </p>
           <p className='leading-relaxed px-4 text'>
-            Created manual test plans, developed UI and API test automation, and collaborated with Product Managers and Software Engineers to deliver top-notch features in an AGILE fashion.
+            Created manual test plans, developed UI and API test automation, and collaborated with Product Managers and Software Engineers to deliver top-notch features in an Agile fashion.
           </p>
 
           {/* HP  Desc. */}
@@ -185,7 +175,7 @@ export default function Page() {
             September 2018 - December 2022
           </p>
           <p className='list-disc mt-4 leading-relaxed px-4'>
-            Attended the <strong>#1</strong> public university in the US, where I tackled a diverse academic curriculum through theoretical and mathematical economics, statistics, and a variety of liberal arts courses. I also studied abroad in Florence in the Fall of 2021.       </p>
+            Attended the <strong>#1</strong> public university in the US, where I tackled a diverse academic curriculum of theoretical and mathematical economics, statistics, and a variety of liberal arts courses. Go Bruins!       </p>
         </section>
 
 
@@ -220,7 +210,7 @@ export default function Page() {
                 <strong>Bay Area Sports Trivia</strong>
               </p>
               <p className="leading-relaxed px-4 text text-center">
-                A game testing the user's knowledge of Bay Area sports. It is multiple choice and tracks the user's high score.
+                A game testing the user's knowledge of Bay Area sports. Even for a lifelong follower like me, it gets difficult.
               </p>
               <div>
                 <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
@@ -238,13 +228,30 @@ export default function Page() {
                 <strong>Favorites Map Locator</strong>
               </p>
               <p className="leading-relaxed px-4 text text-center">
-                My favorite places to eat, drink, or hangout using the Google Maps platform. Coming soon...
+                My favorite places on Earth, pinned with descriptions using the Google Maps platform. Coming soon...
               </p>
             </div>
-
           </div>
         </section>
-      </div>
-    </main>
+
+
+        <section id="Tidbits" className="mt-10 bg-gray-50 p-10 rounded-xl">
+          <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Tidbits</h2>
+          <p className="mt-2 text-lg leading-relaxed">
+            My takes and fun facts for when I can't think of them on the spot</p>
+            <ul className='flex flex-col list-disc mt-4 gap-2 leading-relaxed px-4'>
+              <li>I'm from Oakland, CA</li>
+              <li>I'm a native Spanish speaker</li>
+              <li>Breaking Bad is the greatest TV series ever</li>
+              <li>I've traveled to over 20 different countries</li>
+              <li>I love attending music festivals, and have been to some of the biggest</li>
+              <li>I'm an Eagle Scout</li>
+              <li>I lived in Florence, Italy</li>
+              <li>I have a wealth of knowledge on sports, world, and rap history</li>
+            </ul>
+        </section>
+
+      </div >
+    </main >
   );
 }

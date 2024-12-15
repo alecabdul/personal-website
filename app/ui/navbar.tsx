@@ -28,6 +28,11 @@ export default function NavBar() {
                             <p className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300">Projects</p>
                         </Link>
                     </li>
+                    <li>
+                        <Link href="#Facts">
+                            <p className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300">Facts</p>
+                        </Link>
+                    </li>
                 </ul>
             </nav>
 
