@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main>
-      <div className="flex bg-white-100 text-gray-600 flex-col py-4 p-10 max-w-3xl mx-auto">
+      <div className="flex bg-white-100 text-gray-600 flex-col py-4 p-10 max-w-4xl mx-auto">
         {/* Intro Section */}
         <section id="Intro">
           <div className="flex flex-col gap-4 h-full">
