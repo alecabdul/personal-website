@@ -9,7 +9,7 @@ export default function NavBar() {
                 }}>
                 <ul className="flex flex-row gap-4 mt-2 mb-2">
                     <li>
-                        <Link href="#Intro">
+                        <Link href="#Home">
                             <p className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300">Home</p>
                         </Link>
                     </li>
