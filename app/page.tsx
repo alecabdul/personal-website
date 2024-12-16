@@ -181,12 +181,16 @@ export default function Page() {
 
         <section id="Projects" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Projects</h2>
+          <p className="mt-2 text-lg leading-relaxed">
+            Click to try them out</p>
 
           <div className="flex flex-col md:flex-row justify-center py-4 gap-4">
 
             {/* Personal Website */}
-            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
-
+            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
+              <Link
+                href="#Intro"
+              >
               <p className="px-4 md:text-lg leading-relaxed text-center">
                 <strong>Personal Website</strong>
               </p>
@@ -197,45 +201,63 @@ export default function Page() {
                 <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
                   <li className='bg-gray-300  rounded-xl px-2 py-1'>TypeScript</li>
                   <li className='bg-gray-300  rounded-xl px-2 py-1'>React</li>
-                  <li className='bg-gray-300  rounded-xl px-2 py-1'>Next.js</li>
                   <li className='bg-gray-300  rounded-xl px-2 py-1'>Tailwind</li>
+                  <li className='bg-gray-300  rounded-xl px-2 py-1'>Next.js</li>
                   <li className='bg-gray-300  rounded-xl px-2 py-1'>Vercel</li>
                 </ul>
               </div>
+              </Link>
             </div>
 
             {/* Replit Agent */}
             <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
-                <Link
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://bay-area-sports-trivia-challenge-Alecabdul.replit.app"
-                >
-                  <p className="px-4 md:text-lg leading-relaxed text-center">
-                    <strong>Bay Area Sports Trivia</strong>
-                  </p>
-                  <p className="leading-relaxed px-4 text text-center">
-                    A game that tests the user's knowledge of Bay Area sports, which even a lifelong fan like me finds difficult. Click here to play!
-                  </p>
-                  <div>
-                    <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
-                      <li className='bg-gray-300  rounded-xl px-2 py-1'>Replit Agent</li>
-                      <li className='bg-gray-300  rounded-xl px-2 py-1'>JavaScript</li>
-                      <li className='bg-gray-300  rounded-xl px-2 py-1'>Python</li>
-                      <li className='bg-gray-300  rounded-xl px-2 py-1'>Flask</li>
-                    </ul>
-                  </div>
-                </Link>
-              </div>
+              <Link
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://bay-area-sports-trivia-challenge-Alecabdul.replit.app"
+              >
+                <p className="px-4 md:text-lg leading-relaxed text-center">
+                  <strong>Bay Area Sports Trivia</strong>
+                </p>
+                <p className="leading-relaxed px-4 text text-center">
+                  A game that tests the user's knowledge of Bay Area sports, which even a lifelong fan like me finds difficult. Click here to play!
+                </p>
+                <div>
+                  <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Replit Agent</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>JavaScript</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Python</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Flask</li>
+                  </ul>
+                </div>
+              </Link>
+            </div>
 
             {/* Maps */}
-            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center">
-              <p className="px-4 md:text-lg leading-relaxed text-center">
-                <strong>Favorites Map Locator</strong>
-              </p>
-              <p className="leading-relaxed px-4 text text-center">
-                My favorite places on Earth, pinned with descriptions using the Google Maps platform. Coming soon...
-              </p>
+
+            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
+              <Link
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://the-spots-Alecabdul.replit.app"
+              >
+                <p className="px-4 md:text-lg leading-relaxed text-center">
+                  <strong>The Spots</strong>
+                </p>
+                <p className="leading-relaxed px-4 text text-center">
+                  My favorite places on Earth pinned on Google Maps.
+                </p>
+                <div>
+                  <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>TypeScript</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>React</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Tailwind</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Next.js</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Vercel</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Google Maps API</li>
+                  </ul>
+                </div>
+              </Link>
             </div>
           </div>
         </section>
