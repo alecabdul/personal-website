@@ -7,12 +7,12 @@ export default function Page() {
     <main>
       <div className="flex bg-white-100 text-gray-600 flex-col py-6 p-10">
         {/* Intro Section */}
-        <section id="Intro">
+        <section id="Home">
           <div className="flex flex-col gap-4 h-full md:flex-row">
             <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
               <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
                 <strong>Hi, I'm Alec.</strong></p>
-              <p className='px-4'>I'm a <strong>Software Quality Engineer</strong> based in Lake Tahoe, aspiring to move to NYC. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
+              <p className='px-4'>I'm a <strong>Software Quality Engineer</strong> based in Lake Tahoe, with plans to move to NYC. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
               <p className='px-4'>When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
               </p>
@@ -182,14 +182,14 @@ export default function Page() {
         <section id="Projects" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Projects</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            Click to try them out</p>
+            Click to interact</p>
 
           <div className="flex flex-col md:flex-row justify-center py-4 gap-4">
 
             {/* Personal Website */}
             <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
               <Link
-                href="#Intro"
+                href="#Home"
               >
               <p className="px-4 md:text-lg leading-relaxed text-center">
                 <strong>Personal Website</strong>
