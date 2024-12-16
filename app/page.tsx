@@ -12,9 +12,9 @@ export default function Page() {
             <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
               <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
                 <strong>Hi, I'm Alec.</strong></p>
-              <p className='px-4'>I'm a <strong>Software Quality Engineer</strong> based in Lake Tahoe, with plans to move to NYC. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
+              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
-              <p className='px-4'>When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
+              <p>When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
               </p>
               {/* <p> Feel free to contact or follow me:
             </p>  
