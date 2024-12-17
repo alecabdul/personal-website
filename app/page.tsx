@@ -274,7 +274,7 @@ export default function Page() {
             <li>I'm an Eagle Scout and am prepared for anything</li>
             <li>I lived in Florence for several months and ate my weight in pistachio gelato</li>
             <li>I love attending music festivals and have been to some of the biggest</li>
-            <li>I'm planning on moving to a big city</li>
+            <li>I plan on moving to a big city soon</li>
           </ul>
         </section>
 
