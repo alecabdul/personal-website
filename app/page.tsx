@@ -12,47 +12,10 @@ export default function Page() {
             <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
               <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
                 <strong>Hi, I'm Alec.</strong></p>
-              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
+              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. I love getting into the weeds of complex issues and finding ways to improve processes and product quality. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
               <p>When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
               </p>
-              {/* <p> Feel free to contact or follow me:
-            </p>  
-            <span className='flex flex-row gap-4'>
-              <Link
-                href="mailto:alecabdul99@gmail.com"
-                className="flex items-center gap-3 self-start rounded-xl bg-blue-500 px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-              >
-                <Image
-                  src="/email.png"
-                  width={40}
-                  height={40}
-                  alt="Mail Icon"
-                />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/alec-abdul-rahim-6812ba183/"
-                className="flex flex-row items-center gap-3 self-start rounded-xl bg-blue-500 px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-              >
-                <Image
-                  src="/linkedin.png"
-                  width={40}
-                  height={40}
-                  alt="LinkedIn Icon"
-                />
-              </Link>
-              <Link
-                href="https://www.instagram.com/rahimthedream_/"
-                className="flex items-center gap-3 self-start rounded-xl bg-blue-500 px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-              >
-                <Image
-                  src="/instagram.png"
-                  width={40}
-                  height={40}
-                  alt="LinkedIn Icon"
-                />
-              </Link>
-            </span> */}
             </div>
             <div className="flex flex-col items-center justify-center rounded-xl order-1 md:order-2 bg-gray-50 md:w-1/2 md:h-auto">
               <div
@@ -80,7 +43,7 @@ export default function Page() {
         {/* New Experience Section */}
         <section id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Experience</h2>
-          <p className="mt-2 text-lg leading-relaxed">
+          <p className="mt-2 leading-relaxed">
             In my young career, I've worn many hats and taken a lot of ownership, which has given me the opportunity to develop skills in project management, technical expertise, and leadership.</p>
 
           {/* RL Desc. */}
