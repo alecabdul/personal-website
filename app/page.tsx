@@ -43,7 +43,7 @@ export default function Page() {
         {/* New Experience Section */}
         <section id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Experience</h2>
-          <p className="mt-2 leading-relaxed">
+          <p className="mt-2 text-lg leading-relaxed">
             In my young career, I've worn many hats and taken a lot of ownership, which has given me the opportunity to develop skills in project management, technical expertise, and leadership.</p>
 
           {/* RL Desc. */}
@@ -179,7 +179,7 @@ export default function Page() {
                   <strong>Bay Area Sports Trivia</strong>
                 </p>
                 <p className="leading-relaxed px-4 text text-center">
-                  A game that tests the user's knowledge of Bay Area sports, which even a lifelong fan like me finds difficult. Click here to play!
+                  A game that tests the user's knowledge of Bay Area sports, which even a lifelong fan like me finds difficult.
                 </p>
                 <div>
                   <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
@@ -233,7 +233,7 @@ export default function Page() {
             <li>I'm an Eagle Scout and am prepared for anything</li>
             <li>I lived in Florence for several months and ate my weight in pistachio gelato</li>
             <li>I love attending music festivals and have been to some of the biggest</li>
-            <li>I plan on moving to a big city soon</li>
+            <li>I plan on moving to a big city very soon</li>
           </ul>
         </section>
 
