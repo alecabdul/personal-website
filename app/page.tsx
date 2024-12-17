@@ -12,7 +12,7 @@ export default function Page() {
             <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
               <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
                 <strong>Hi, I'm Alec.</strong></p>
-              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. I love getting into the weeds of complex issues and finding ways to improve processes, customer experience, and product quality. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
+              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. I love getting into the weeds of complex issues and finding ways to improve product quality and customer experience. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
               <p>When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
               </p>
