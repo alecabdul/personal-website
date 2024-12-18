@@ -44,7 +44,8 @@ export default function Page() {
         <section id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Experience</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            In my young career, I've worn many hats and taken a lot of ownership, which has given me the opportunity to develop skills in project management, technical expertise, and leadership.</p>
+            Working at a fast-paced startup has been invaluable to my growth. I’ve worn many hats, innovated, and taken great ownership. More often than not, the pressure is on, but I thrive in this environment and am proud of the results.
+          </p>
 
           {/* RL Desc. */}
           <div className="mt-10 text-gray-600 text-xl leading-relaxed">
@@ -77,7 +78,7 @@ export default function Page() {
             <strong>Quality Engineer I</strong>, February 2023 - February 2024
           </p>
           <p className='leading-relaxed px-4'>
-            Joined full-time at Ridgeline as the sole QE supporting the Revenue Management team. I developed comprehensive test automation suites, executed test plans, and managed code deployments.
+            Joined full-time at Ridgeline as the sole QE supporting the Revenue Management team. I developed comprehensive test automation suites, owned test plans, and managed code deployments.
           </p>
 
           {/* QA Intern */}
@@ -208,7 +209,7 @@ export default function Page() {
                   <strong>The Spots</strong>
                 </p>
                 <p className="leading-relaxed px-4 text text-center">
-                  My favorite places on Earth pinned on Google Maps.
+                  My favorite places on Earth, pinned with descriptions using Google Maps.
                 </p>
                 <div>
                   <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
