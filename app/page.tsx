@@ -12,7 +12,7 @@ export default function Page() {
             <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
               <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
                 <strong>Hi, I'm Alec.</strong></p>
-              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. I love diving into complex issues and finding ways to improve product and customer experience. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
+              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. I love diving into complex issues and finding ways to improve the product and customer experience. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
               <p>When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
               </p>
@@ -43,7 +43,7 @@ export default function Page() {
         <section id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Experience</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            Working at a fast-paced startup has been invaluable to my growth. I've taken ownership, built lasting processes, and delivered results I'm proud of. The pressure is always on, but I thrive in this environment.
+            Working at a fast-paced startup has been invaluable to my growth. I've taken ownership, built lasting processes, and delivered results to be proud of. The pressure is always on, but I thrive in this environment.
           </p>
 
           {/* RL Desc. */}
