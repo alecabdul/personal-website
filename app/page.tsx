@@ -151,6 +151,9 @@ export default function Page() {
 
             {/* Personal Website */}
             <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
+              <Link
+                href="#Projects"
+              >
               <p className="px-4 md:text-lg leading-relaxed text-center">
                 <strong>Personal Website</strong>
               </p>
@@ -166,7 +169,8 @@ export default function Page() {
                   <li className='bg-gray-300  rounded-xl px-2 py-1'>Vercel</li>
                 </ul>
               </div>
-            </div>
+            </Link>
+          </div>
 
             {/* Replit Agent */}
             <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
