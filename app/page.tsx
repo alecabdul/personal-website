@@ -28,7 +28,6 @@ export default function Page() {
                 <div className="w-[95%] relative">
                   <Image
                     src="/riflepeak.jpeg"
-                    layout="intrinsic"
                     width={1600}
                     height={1200}
                     alt="Screenshots of the dashboard project showing desktop version"
