@@ -44,7 +44,7 @@ export default function Page() {
         <section id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Experience</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            Working at a fast-paced startup has been invaluable to my growth. I’ve worn many hats, innovated, and taken great ownership. More often than not, the pressure is on, but I thrive in this environment and am proud of the results.
+            Working at a fast-paced startup has been invaluable to my growth. I’ve worn many hats, innovated, and taken great ownership. The pressure is always on, but I thrive in this environment and am proud of the results.
           </p>
 
           {/* RL Desc. */}
