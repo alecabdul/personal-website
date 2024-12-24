@@ -35,11 +35,11 @@ export default function Footer() {
                     </Link>
                 </li>
             </ul>
-            <p className="mb-16">
+            <p>
                 {/* © {new Date().getFullYear()} */}
                 Hosted on Vercel
             </p>
-            <p>
+            <p className="mb-12 ">
                 {/* © {new Date().getFullYear()} */}
                 Built by Alec Abdul-Rahim
             </p>
