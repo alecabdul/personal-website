@@ -36,12 +36,10 @@ export default function Footer() {
                 </li>
             </ul>
             <p>
-                {/* © {new Date().getFullYear()} */}
-                Hosted on Vercel
+                Built with React & Next.js. Hosted on Vercel
             </p>
-            <p className="mb-12 ">
-                {/* © {new Date().getFullYear()} */}
-                Built by Alec Abdul-Rahim
+            <p className="mb-12">
+            ©  {new Date().getFullYear()} Alec Abdul-Rahim
             </p>
         </footer>
     );
