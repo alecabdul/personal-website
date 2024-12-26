@@ -197,7 +197,6 @@ export default function Page() {
             </div>
 
             {/* Maps */}
-
             <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
               <Link
                 rel="noopener noreferrer"
@@ -213,6 +212,32 @@ export default function Page() {
                 <div>
                   <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>Google Maps API</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>TypeScript</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>React</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Tailwind</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Next.js</li>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Vercel</li>
+                  </ul>
+                </div>
+              </Link>
+            </div>
+
+                        {/* Weather */}
+            <div className="bg-gray-200 rounded-xl p-4 max-w-md w-full flex flex-col justify-center items-center hover:scale-95 transition-transform duration-200 ease-in-out">
+              <Link
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://weather-app-Alecabdul.replit.app"
+              >
+                <p className="px-4 md:text-lg leading-relaxed text-center">
+                  <strong>Weather Dashboard</strong>
+                </p>
+                <p className="leading-relaxed px-4 text text-center">
+                  Simultaneously view weather for any city in the world.
+                </p>
+                <div>
+                  <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
+                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Open Weather Map API</li>
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>TypeScript</li>
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>React</li>
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>Tailwind</li>
