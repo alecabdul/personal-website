@@ -233,7 +233,7 @@ export default function Page() {
                   <strong>Weather Dashboard</strong>
                 </p>
                 <p className="leading-relaxed px-4 text text-center">
-                  Simultaneously view weather for any city in the world.
+                  Simultaneously view real-time weather for any city in the world.
                 </p>
                 <div>
                   <ul className='flex flex-row flex-wrap justify-center items-center gap-2 mt-2'>
