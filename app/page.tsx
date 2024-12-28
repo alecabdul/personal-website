@@ -69,7 +69,7 @@ export default function Page() {
             <strong>Quality Engineer II</strong>, February 2024 - Present
           </p>
           <p className='leading-relaxed px-4'>
-            Expanded responsibilities to be sole QE for the newly formed Client Portal team, introducing new challenges for Ridgeline where maintaining performance quality was mission-critical. I owned the entire quality assurance process, from product ideation to go-live, and continue to ensure its success today.
+            Expanded responsibilities to be sole QE for the newly formed Client Portal team, owning the all quality assurance processes. I introduced a new client-side load testing framework that helped numerous teams across the company identify and act on performance bottlenecks.
           </p>
 
           {/* QEI */}
