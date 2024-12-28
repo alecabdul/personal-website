@@ -216,7 +216,6 @@ export default function Page() {
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>React</li>
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>Tailwind</li>
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>Next.js</li>
-                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Vercel</li>
                   </ul>
                 </div>
               </Link>
@@ -242,7 +241,6 @@ export default function Page() {
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>React</li>
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>Tailwind</li>
                     <li className='bg-gray-300  rounded-xl px-2 py-1'>Next.js</li>
-                    <li className='bg-gray-300  rounded-xl px-2 py-1'>Vercel</li>
                   </ul>
                 </div>
               </Link>
