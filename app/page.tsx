@@ -43,7 +43,7 @@ export default function Page() {
         <section id="Background" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Background</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            Working at a fast-paced startup, I've worn many hats and taken great ownership in order to deliver stellar results. This has meant taking on responsibilities beyond the scope of a typical QA Engineer to make sure the best solutions are delivered.
+            Working at a fast-paced startup, I've taken full ownership. This has meant taking on responsibilities beyond the typical scope of a QA Engineer to ensure the best results are delivered.
           </p>
 
           {/* RL Desc. */}
