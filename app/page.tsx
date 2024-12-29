@@ -43,7 +43,7 @@ export default function Page() {
         <section id="Background" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Background</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            Working at a fast-paced startup, I've taken full ownership. This has meant taking on responsibilities beyond the typical scope of a QA Engineer to ensure the best results are delivered.
+            Working at a fast-paced startup, I've worn many hats and taken full ownership to consistently deliver stellar results.
           </p>
 
           {/* RL Desc. */}
@@ -65,24 +65,24 @@ export default function Page() {
           </div>
 
           {/* QEII */}
-          <p className='md:px-4 text-lg leading-relaxed mt-6'>
+          <p className='md:px-4 text-lg leading-relaxed mt-4'>
             <strong>Quality Engineer II</strong>, February 2024 - Present
           </p>
-          <p className='leading-relaxed md:px-4'>
+          <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
           Expanded my responsibilities to become the sole QE for the newly formed Client Portal team, working cross-functionally and owning all quality assurance processes. I introduced a new UI load testing framework to the company that helped multiple teams identify and resolve performance bottlenecks. Additionally, I served as the resident demo voice for Client Portal, showcasing our new product to numerous prospective customers.          </p>
 
           {/* QEI */}
           <p className='md:px-4 text-lg  leading-relaxed mt-6'>
             <strong>Quality Engineer I</strong>, February 2023 - February 2024
           </p>
-          <p className='leading-relaxed md:px-4'>
+          <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
           Joined Ridgeline full-time as the sole QE supporting the Revenue Management team, where I owned all test plans and developed comprehensive test automation suites. I quickly became the team's go-to product expert, and used this knowledge to lead efforts in troubleshooting customer issues. I also managed service deployments and feature flag flips, using my expertise to build a deployment framework that was later adopted by other teams.          </p>
 
           {/* QA Intern */}
           <p className='md:px-4 text-lg leading-relaxed mt-6'>
             <strong>QA Engineer Intern</strong>, June 2022 - August 2022
           </p>
-          <p className='leading-relaxed md:px-4 text'>
+          <p className='leading-relaxed md:px-4 text md:mt-0 mt-2'>
             Created manual test plans, developed UI and API test automation, and collaborated with Product Managers and Software Engineers to deliver top-notch features using Agile methods. I was also given the intern award for "Most Majestic Beard", but have since shaved.
           </p>
 
@@ -105,10 +105,10 @@ export default function Page() {
           </div>
 
           {/* Data Analyst Intern */}
-          <p className='md:px-4 text-lg leading-relaxed mt-6'>
+          <p className='md:px-4 text-lg leading-relaxed mt-4'>
             <strong>Data Analyst Intern</strong>, June 2020 - August 2021
           </p>
-          <p className='leading-relaxed md:px-4'>
+          <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
             Dove into large datasets and applied data-driven insights to improve HP's Amazon listing strategy. I must have done okay, because they extended the internship through the school year and into August 2021.
           </p>
 
@@ -128,10 +128,10 @@ export default function Page() {
               The #1 public university in the US.
             </p>
           </div>
-          <p className='md:px-4 text-lg leading-relaxed mt-6'>
+          <p className='md:px-4 text-lg leading-relaxed mt-4'>
             <strong>B.A. Economics, Minor in Statistics</strong>, September 2018 - December 2022
           </p>
-          <p className='leading-relaxed md:px-4'>
+          <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
           Tackled a diverse curriculum of theoretical and mathematical economics, statistics, and a variety of liberal arts courses. I also made the most of UCLA's top ranking in on-campus food across all universities. Go Bruins!
           </p>
         </section>
