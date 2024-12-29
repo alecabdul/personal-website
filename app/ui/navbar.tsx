@@ -14,13 +14,8 @@ export default function NavBar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="#Experience">
-                            <p className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300">Experience</p>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="#Education">
-                            <p className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300">Education</p>
+                        <Link href="#Background">
+                            <p className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300">Background</p>
                         </Link>
                     </li>
                     <li>

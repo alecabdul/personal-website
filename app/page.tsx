@@ -39,9 +39,9 @@ export default function Page() {
           </div>
         </section>
 
-        {/* New Experience Section */}
-        <section id="Experience" className="mt-10 bg-gray-50 p-10 rounded-xl">
-          <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Experience</h2>
+        {/* New Background Section */}
+        <section id="Background" className="mt-10 bg-gray-50 p-10 rounded-xl">
+          <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Background</h2>
           <p className="mt-2 text-lg leading-relaxed">
             Working at a fast-paced startup, I've taken ownership and delivered results to be proud of. The pressure is always on, but I thrive in this environment.
           </p>
@@ -113,12 +113,8 @@ export default function Page() {
           <p className='leading-relaxed px-4'>
             Dove into large datasets and applied data-driven insights to improve HP's Amazon listing strategy. I must have done okay, because they extended the internship through the school year and into August 2021.
           </p>
-        </section>
 
-        {/* New Education Section */}
-        <section id="Education" className="mt-10 bg-gray-50 p-10 rounded-xl">
-          <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Education</h2>
-          <p className="mt-4 text-gray-600 text-xl leading-relaxed">
+          <div className="mt-10 text-gray-600 text-xl leading-relaxed">
             <span className='flex flex-row gap-2'>
               <strong> University of California, Los Angeles
               </strong>
@@ -130,17 +126,17 @@ export default function Page() {
                 alt="UCLA Icon"
               />
             </span>
+            <p className='text-lg'>
+              The <strong>#1</strong> public university in the US.
+            </p>
+          </div>
+          <p className='px-4 text-lg leading-relaxed mt-6'>
+            <strong>B.A. Economics, Minor in Statistics</strong>, September 2018 - December 2022
           </p>
-          <p className='text-lg'>
-            B.A. Economics, Minor in Statistics
+          <p className='leading-relaxed px-4'>
+            Tackled a diverse curriculum of theoretical and mathematical economics, statistics, and a variety of liberal arts courses. Go Bruins!
           </p>
-          <p className='text-lg'>
-            September 2018 - December 2022
-          </p>
-          <p className='list-disc mt-4 leading-relaxed px-4'>
-            Attended the <strong>#1</strong> public university in the US, where I tackled a diverse curriculum of theoretical and mathematical economics, statistics, and a variety of liberal arts courses. Go Bruins!       </p>
         </section>
-
 
         <section id="Projects" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Projects</h2>
