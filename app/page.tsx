@@ -132,7 +132,7 @@ export default function Page() {
             <strong>B.A. Economics, Minor in Statistics</strong>, September 2018 - December 2022
           </p>
           <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
-          Tackled a diverse curriculum of theoretical and mathematical economics, statistics, and a variety of liberal arts courses. I also made the most of UCLA's top ranking in on-campus food across all universities. Go Bruins!
+          Tackled a diverse curriculum of theoretical and mathematical economics, statistics, and a variety of liberal arts courses. I also made the most of UCLA's #1 ranking in best college food. Go Bruins!
           </p>
         </section>
 
