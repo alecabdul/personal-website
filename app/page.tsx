@@ -42,12 +42,12 @@ export default function Page() {
         {/* New Background Section */}
         <section id="Background" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Background</h2>
-          <p className="mt-2 text-lg leading-relaxed">
-            Working at a fast-paced startup, I've worn many hats and taken full ownership to consistently deliver stellar results.
-          </p>
+          {/* <p className="mt-2 text-lg leading-relaxed">
+            Working at a fast-paced startup, I've worn many hats, innovated, and taken full ownership to consistently deliver stellar results. Here are some highlights.
+          </p> */}
 
           {/* RL Desc. */}
-          <div className="mt-10 text-gray-600 text-xl leading-relaxed">
+          <div className="mt-6 text-gray-600 text-xl leading-relaxed">
             <span className='flex flex-row gap-1'>
               <strong>Ridgeline Apps
               </strong>
@@ -60,7 +60,7 @@ export default function Page() {
               />
             </span>
             <p className='text-lg'>
-              Vertically integrated financial software for asset management firms.
+              Vertically integrated financial software for asset management firms. I've worn many hats and taken full ownership, delivering high-impact products.
             </p>
           </div>
 
@@ -69,14 +69,14 @@ export default function Page() {
             <strong>Quality Engineer II</strong>, February 2024 - Present
           </p>
           <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
-          Expanded my responsibilities to become the sole QE for the newly formed Client Portal team, working cross-functionally and owning all quality assurance processes. I introduced a new UI load testing framework to the company that helped multiple teams identify and resolve performance bottlenecks. Additionally, I served as the resident demo voice for Client Portal, showcasing our new product to numerous prospective customers.          </p>
+          Expanded my responsibilities to become the sole QE for the newly formed Client Portal team, working cross-functionally and owning all quality assurance processes from product ideation to go-live to today. I introduced a new UI load testing framework to the company that helped numerous teams identify and resolve performance bottlenecks. Additionally, I served as the resident demo voice for Client Portal, showcasing our new product to numerous prospective customers.         </p>
 
           {/* QEI */}
           <p className='md:px-4 text-lg  leading-relaxed mt-6'>
             <strong>Quality Engineer I</strong>, February 2023 - February 2024
           </p>
           <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
-          Joined Ridgeline full-time as the sole QE supporting the Revenue Management team, where I owned all test plans and developed comprehensive test automation suites. I quickly became the team's go-to product expert, and used this knowledge to lead efforts in troubleshooting customer issues. I also managed service deployments and feature flag flips, using my expertise to build a deployment framework that was later adopted by other teams.          </p>
+          Joined Ridgeline full-time as the sole QE supporting the Revenue Management team, where I owned all test plans, developed comprehensive test automation suite, and took the product live. I quickly became the team's go-to product expert, and used this knowledge to lead efforts in troubleshooting customer issues. I also managed service deployments and feature flag flips, using my expertise to build a deployment framework that was later adopted by other teams.          </p>
 
           {/* QA Intern */}
           <p className='md:px-4 text-lg leading-relaxed mt-6'>
@@ -100,7 +100,7 @@ export default function Page() {
               />
             </span>
             <p className='text-lg'>
-              Tech giant renowned for its laptops, desktops, and printers.
+              Tech giant renowned for its laptops, desktops, and printers. I interned for their Omnichannel Strategy team.
             </p>
           </div>
 
