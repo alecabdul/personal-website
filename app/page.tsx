@@ -12,9 +12,9 @@ export default function Page() {
             <div className="flex rounded-xl flex-col justify-center order-2 md:order-1 gap-4 bg-gray-50 px-6 py-10 md:w-1/2 md:px-12">
               <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
                 <strong>Hi, I'm Alec.</strong></p>
-              <p>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. I love diving into complex issues and finding ways to improve the product and customer experience. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
+              <p className='md:text-lg'>I'm a <strong>Software Quality Engineer</strong> currently based in Lake Tahoe. I love diving into complex issues and finding ways to improve the product and customer experience. My goal is to continue growing my technical knowledge while delivering software solutions that people love.
               </p>
-              <p>When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
+              <p className='md:text-lg'>When I'm not behind the keyboard, you'll find me hiking, snowboarding, trying different foods, or exploring new places.
               </p>
             </div>
             <div className="flex flex-col items-center justify-center rounded-xl order-1 md:order-2 bg-gray-50 md:w-1/2 md:h-auto">
@@ -42,9 +42,9 @@ export default function Page() {
         {/* New Background Section */}
         <section id="Background" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Background</h2>
-          {/* <p className="mt-2 text-lg leading-relaxed">
-            Working at a fast-paced startup, I've worn many hats, innovated, and taken full ownership to consistently deliver stellar results. Here are some highlights.
-          </p> */}
+          <p className="mt-2 text-lg leading-relaxed">
+            In my young career, I've taken full ownership and worn many hats in delivering results to be proud of. Here are some highlights.
+          </p>
 
           {/* RL Desc. */}
           <div className="mt-6 text-gray-600 text-xl leading-relaxed">
@@ -60,7 +60,7 @@ export default function Page() {
               />
             </span>
             <p className='text-lg'>
-              Vertically integrated financial software for asset management firms. I've worn many hats and taken full ownership, delivering high-impact products.
+              Vertically integrated financial software for asset management firms.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ export default function Page() {
               />
             </span>
             <p className='text-lg'>
-              Tech giant renowned for its laptops, desktops, and printers. I interned for their Omnichannel Strategy team.
+              Tech giant renowned for its laptops, desktops, and printers.
             </p>
           </div>
 
@@ -109,7 +109,7 @@ export default function Page() {
             <strong>Data Analyst Intern</strong>, June 2020 - August 2021
           </p>
           <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
-            Dove into large datasets and applied data-driven insights to improve HP's Amazon listing strategy. I must have done okay, because they extended the internship through the school year and into August 2021.
+            Dove into large datasets and applied data-driven insights to improve HP's Amazon listing strategy and propose new listing guidelines for the greater Amazon marketplace. I must have done okay, because they extended the internship through the school year and into August 2021.
           </p>
 
           <div className="mt-10 text-gray-600 text-xl leading-relaxed">
