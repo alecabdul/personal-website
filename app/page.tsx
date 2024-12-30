@@ -43,7 +43,7 @@ export default function Page() {
         <section id="Background" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Background</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            In my young career, I've taken full ownership and worn many hats in delivering results to be proud of. Here are some highlights.
+            In my young career, I've worn many hats and taken full ownership and in delivering results to be proud of. Here are some highlights.
           </p>
 
           {/* RL Desc. */}
