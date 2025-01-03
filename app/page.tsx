@@ -68,21 +68,21 @@ export default function Page() {
           <p className='md:px-4 text-lg leading-relaxed mt-4'>
             <strong>Quality Engineer II</strong>, February 2024 - Present
           </p>
-          <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
+          <p className='leading-relaxed md:px-4 md:mt-0 mt-2 md:text-lg'>
           Expanded my responsibilities to become the sole QE for the newly formed Client Portal team, working cross-functionally and owning all quality assurance processes from product ideation to go-live to today. I introduced a new UI load testing framework to the company that helped numerous teams identify and resolve performance bottlenecks. Additionally, I served as the resident demo voice for Client Portal, showcasing our new product to numerous prospective customers.         </p>
 
           {/* QEI */}
           <p className='md:px-4 text-lg  leading-relaxed mt-6'>
             <strong>Quality Engineer I</strong>, February 2023 - February 2024
           </p>
-          <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
+          <p className='leading-relaxed md:px-4 md:mt-0 mt-2 md:text-lg'>
           Joined Ridgeline full-time as the sole QE supporting the Revenue Management team, where I owned all test plans, developed comprehensive test automation suite, and took the product live. I quickly became the team's go-to product expert, and used this knowledge to lead efforts in troubleshooting customer issues. I also managed service deployments and feature flag flips, using my expertise to build a deployment framework that was later adopted by other teams.          </p>
 
           {/* QA Intern */}
           <p className='md:px-4 text-lg leading-relaxed mt-6'>
             <strong>QA Engineer Intern</strong>, June 2022 - August 2022
           </p>
-          <p className='leading-relaxed md:px-4 text md:mt-0 mt-2'>
+          <p className='leading-relaxed md:px-4 text md:mt-0 mt-2 md:text-lg'>
             Created manual test plans, developed UI and API test automation, and collaborated with Product Managers and Software Engineers to deliver top-notch features using Agile methods. I was also given the intern award for "Most Majestic Beard", but have since shaved.
           </p>
 
@@ -108,7 +108,7 @@ export default function Page() {
           <p className='md:px-4 text-lg leading-relaxed mt-4'>
             <strong>Data Analyst Intern</strong>, June 2020 - August 2021
           </p>
-          <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
+          <p className='leading-relaxed md:px-4 md:mt-0 mt-2 md:text-lg'>
             Dove into large datasets and applied data-driven insights to improve HP's Amazon listing strategy and propose new listing guidelines for the greater Amazon marketplace. I must have done okay, because they extended the internship through the school year and into August 2021.
           </p>
 
@@ -131,7 +131,7 @@ export default function Page() {
           <p className='md:px-4 text-lg leading-relaxed mt-4'>
             <strong>B.A. Economics, Minor in Statistics</strong>, September 2018 - December 2022
           </p>
-          <p className='leading-relaxed md:px-4 md:mt-0 mt-2'>
+          <p className='leading-relaxed md:px-4 md:mt-0 mt-2 md:text-lg'>
           Tackled a diverse curriculum of theoretical and mathematical economics, statistics, and a variety of liberal arts courses. I also made the most of UCLA's #1 ranking in best college food. Go Bruins!
           </p>
         </section>
