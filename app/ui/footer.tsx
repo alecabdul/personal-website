@@ -14,7 +14,7 @@ export default function Footer() {
                         <p>Email</p>
                     </Link>
                 </li>
-                <li>
+{/*                 <li>
                     <Link
                         className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300"
                         rel="noopener noreferrer"
@@ -23,7 +23,7 @@ export default function Footer() {
                     >
                         <p>Resume</p>
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link
                         className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-300"
