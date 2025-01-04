@@ -139,7 +139,7 @@ export default function Page() {
         <section id="Projects" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Projects</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            Click to interact</p>
+          Some fun hacks of mine. Click to interact.</p>
 
           <div className="flex flex-col md:flex-row justify-center py-4 gap-4">
 
@@ -246,7 +246,7 @@ export default function Page() {
         <section id="Facts" className="mt-10 bg-gray-50 p-10 rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 md:text-3xl">Fun Facts</h2>
           <p className="mt-2 text-lg leading-relaxed">
-            For when I can't think of one on the spot</p>
+            For when I can't think of one on the spot.</p>
           <ul className='flex flex-col list-disc mt-4 gap-2 leading-relaxed px-4'>
             <li>I'm from Oakland, CA</li>
             <li>I'm a native Spanish speaker</li>
