@@ -69,7 +69,7 @@ export default function Page() {
             <strong>Quality Engineer II</strong>, February 2024 - Present
           </p>
           <p className='leading-relaxed md:px-4 md:mt-0 mt-2 md:text-lg'>
-          Expanded my responsibilities to become the sole QE for the newly formed Client Portal team, working cross-functionally and owning all quality assurance processes. User concurrency was a primary concern for Client Portal, which drove me to implement a company-wide UI load testing framework that helped many identify and resolve performance bottlenecks. Additionally, I served as the resident demo voice for Client Portal, showcasing our new product to numerous prospective customers.         </p>
+          Expanded my responsibilities to become the sole QE for the newly formed Client Portal team, working cross-functionally and owning all quality assurance processes. User concurrency was a primary concern for Client Portal, which drove me to implement a company-wide UI load testing framework that helped many identify and resolve performance bottlenecks. Additionally, I became the demo voice for Client Portal, showcasing our new product to numerous prospective customers.         </p>
 
           {/* QEI */}
           <p className='md:px-4 text-lg  leading-relaxed mt-6'>
