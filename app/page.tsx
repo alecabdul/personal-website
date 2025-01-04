@@ -76,7 +76,7 @@ export default function Page() {
             <strong>Quality Engineer I</strong>, February 2023 - February 2024
           </p>
           <p className='leading-relaxed md:px-4 md:mt-0 mt-2 md:text-lg'>
-          Joined Ridgeline full-time as the sole QE supporting the Revenue Management team, where I owned all test plans and developed comprehensive test automation suites. Having the full breadth of product understanding, I quickly became the team's go-to product expert, and used this knowledge to lead efforts in troubleshooting customer issues. I also managed service deployments and feature flag flips, using my expertise to build a deployment framework that was later adopted by other teams.          </p>
+          Joined Ridgeline full-time as the sole QE supporting the Revenue Management team, where I owned all test plans and developed comprehensive test automation suites. Having the full breadth of product knowledge, I quickly became the team's go-to product expert, and used this knowledge to lead efforts in troubleshooting customer issues. I also managed service deployments and feature flag flips, using my expertise to build a deployment framework that was later adopted by other teams.          </p>
 
           {/* QA Intern */}
           <p className='md:px-4 text-lg leading-relaxed mt-6'>
